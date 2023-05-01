@@ -2,7 +2,7 @@
     "identifier": "gubeka.OCaml",
     "name": "OCaml",
     "organization": "Gubeka",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "description": "Syntax highlighting and completion for OCaml",
     "version": "1.0",
     "categories": ["language", "completions"],
     "main": "main.js",
@@ -12,5 +12,8 @@
     "min_runtime": "10.0",
     "entitlements": {
         "process": true
-    }
+    },
+
+    "bugs": "https://github.com/Gugu7264/OCaml.novaextension/issues",
+    "repository": "https://github.com/Gugu7264/OCaml.novaextension"
 }
