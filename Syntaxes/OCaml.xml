@@ -1,0 +1,48 @@
+<syntax name="ocaml">
+    <meta>
+        <name>OCaml</name>
+        <type>compiled</type>
+        <preferred-file-extension>ml</preferred-file-extension>
+    </meta>
+    <detectors>
+        <extension priority="1.0">ml,mli</extension>
+    </detectors>
+    <indentation>
+        <increase>
+            <expression>(let .* =)|(function$)|(match( .* with)?$)</expression>
+        </increase>
+        <decrease>
+            <expression></expression>
+        </decrease>
+    </indentation>
+    <comments>
+        <multiline>
+            <starts-with>
+                <expression>(*</expression>
+            </starts-with>
+            <ends-with>
+                <expression>*)</expression>
+            </ends-with>
+        </multiline>
+    </comments>
+    <brackets>
+        <pair open="{" close="}" />
+        <pair open="[|" close="|]" />
+        <pair open="[" close="]" />
+        <pair open="(" close=")" />
+    </brackets>
+    <surrounding-pairs>
+        <pair open="{" close="}" />
+        <pair open="[|" close="|]" />
+        <pair open="[" close="]" />
+        <pair open="(" close=")" />
+        <pair open="'" close="'" />
+        <pair open="\" close="\" />
+        <pair open="`" close="`" />
+    </surrounding-pairs>
+
+    <tree-sitter>
+        <highlights />
+        <symbols />
+    </tree-sitter>
+</syntax>

@@ -1,0 +1,16 @@
+{
+    "identifier": "gubeka.OCaml",
+    "name": "OCaml",
+    "organization": "Gubeka",
+    "description": "Lorem ipsum, dolor sit amet.",
+    "version": "1.0",
+    "categories": ["language", "completions"],
+    "main": "main.js",
+    "activationEvents": [
+        "onLanguage:ocaml"
+    ],
+    "min_runtime": "10.0",
+    "entitlements": {
+        "process": true
+    }
+}
